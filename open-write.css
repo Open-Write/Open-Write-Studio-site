@@ -94,7 +94,7 @@ section + section { border-top: 1px solid var(--rule); }
   text-align: center;
 }
 .hero-logo {
-  max-width: 300px;
+  max-width: 600px;
   height: auto;
   margin-bottom: 3rem;
   filter: drop-shadow(0 4px 20px rgba(184, 150, 11, 0.2));

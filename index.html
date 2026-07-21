@@ -18,6 +18,7 @@
 <meta name="twitter:description" content="An open-source instrument for designing long-form stories. The architect drives; the tool holds the structure, checks it, and renders the draft.">
 <meta name="twitter:image" content="https://open-write-studio.com/og-image.png">
 <!-- /social -->
+<link rel="icon" href="Logo-square.jpg">
 <link rel="stylesheet" href="open-write.css">
 </head>
 <body>
@@ -25,12 +26,13 @@
 <div class="topbar">
   <div class="container">
     <div class="logo-container">
-      <img src="image.jpg" alt="Open-Write Logo" class="topbar-logo">
+      <img src="Logo-banner.jpg" alt="Open-Write Logo" class="topbar-logo">
       <span class="wordmark"><a href="index.html">Open-Write</a></span>
     </div>
     <nav>
       <a href="#system">How it works</a>
       <a href="#work">The work</a>
+      <a href="moloch.html">Moloch</a>
       <a href="#questions">Honest questions</a>
       <a href="#about">About</a>
       <a href="#hire">Work with me</a>
@@ -41,7 +43,7 @@
 
 <section class="hero">
   <div class="container">
-    <img src="image.jpg" alt="Open-Write Logo" class="hero-logo">
+    <img src="Logo-banner.jpg" alt="Open-Write Logo" class="hero-logo">
     <div class="eyebrow">An open-source instrument for narrative</div>
     <h1>You are the architect.<br><em>This is your drafting table.</em></h1>
     <p class="lede">
@@ -51,7 +53,7 @@
     <p class="frame-note">
       <strong>It is not a button you press to get a novel.</strong> It is a tool a craftsperson drives. An architect using CAD is still the architect; the instrument supplies precision and throughput, never taste. What you make of it is up to you.
     </p>
-    <p class="status"><span class="dot"></span> The work is readable now &middot; the open-source repository releases June&nbsp;1, 2026</p>
+    <p class="status"><span class="dot"></span> Open-Write is live on GitHub &middot; <em>Moloch</em> releases July&nbsp;21 &middot; Open-Write&nbsp;Studio coming July&nbsp;27</p>
     <div class="cta-row">
       <a class="btn" href="a-thousand-silences.html">Read what it drafted</a>
       <a class="btn secondary" href="#system">See how it works</a>
@@ -95,8 +97,8 @@
     <div class="eyebrow">The work it produced</div>
     <h2>Built by making real things. <em>Not by describing a capability.</em></h2>
     <p class="section-intro">
-      Three completed projects are released alongside the system as evidence of what it can do in skilled hands.
-      <em>A Thousand Silences</em> is readable in full now; excerpts of the others are posted ahead of the June&nbsp;1 release.
+      Four completed projects are released alongside the system as evidence of what it can do in skilled hands.
+      <em>A Thousand Silences</em> and <em>Moloch: The Optimization Trap</em> are readable in full now; excerpts of the others are posted.
     </p>
 
     <div class="works">
@@ -141,6 +143,20 @@
         </ul>
         <p class="verdict">In development for studio submission.</p>
         <a class="read-link" href="gopc-excerpt.html">Read the Season 2 cold open →</a>
+      </article>
+
+      <article class="work">
+        <div class="kind">Dual-track &middot; essays &amp; fiction</div>
+        <h3>Moloch: <em>The Optimization Trap</em></h3>
+        <p>A structural argument about how self-reinforcing incentive systems drive harmful optimization across technology, governance, and media — told through alternating essays and fiction. Twenty-three chapters, footnoted and sourced. Produced by the Open-Write pipeline.</p>
+        <ul class="stats">
+          <li><span class="label">Length</span><span class="value">~57,000 words</span></li>
+          <li><span class="label">Chapters</span><span class="value">23</span></li>
+          <li><span class="label">Format</span><span class="value">Essays &amp; fiction</span></li>
+          <li><span class="label">Released</span><span class="value">July 21</span></li>
+        </ul>
+        <p class="verdict">Available as PDF, EPUB, DOCX, and TXT.</p>
+        <a class="read-link" href="moloch.html">Read <em>Moloch</em> →</a>
       </article>
 
     </div>
@@ -265,8 +281,8 @@
         </div>
       </div>
 
-      <div class="release">
-        <div class="when"><span class="when-date">June 1</span><span class="tag soon">Repository</span></div>
+      <div class="release is-live">
+        <div class="when"><span class="when-date">June 1</span><span class="tag live">Repository</span></div>
         <div class="what">
           <h3>Open-Write on GitHub</h3>
           <p>The full public pipeline — three templates, the Python toolchain, the state server, and the methodology docs — released under Apache&nbsp;2.0.</p>
@@ -296,6 +312,25 @@
         </div>
       </div>
 
+      <div class="release">
+        <div class="when"><span class="when-date">July 21</span><span class="tag soon">New work</span></div>
+        <div class="what">
+          <h3><em>Moloch: The Optimization Trap</em></h3>
+          <p>A dual-track work — essays and fiction — arguing that the primary threat is not malicious individuals but self-reinforcing systems of perverse incentives. Readable in full, with free ebook downloads in PDF, EPUB, DOCX, and TXT.</p>
+          <ul class="items">
+            <li><a href="moloch.html">Read <em>Moloch</em> →</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="release">
+        <div class="when"><span class="when-date">July 27</span><span class="tag soon">Standalone</span></div>
+        <div class="what">
+          <h3>Open-Write Studio</h3>
+          <p>A new standalone version of Open-Write with a native installer. Full Open-Write capability — the pipeline, the templates, the multi-agent workflow — running outside of Visual Studio Code and Kilo Code, as its own application.</p>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -304,7 +339,7 @@
   <div class="container">
     <div class="colophon">
       <strong>Open-Write</strong> releases under the Apache 2.0 license on June 1, 2026, developed and maintained by <a href="#about">Nicholas Detweiler</a>.
-      The works released alongside it — <em>A Thousand Silences</em>, <em>QG</em>, and <em>Ghosts of Pottawatomie Creek</em> — are case studies in what the instrument produces in skilled hands.
+      The works released alongside it — <em>A Thousand Silences</em>, <em>QG</em>, <em>Ghosts of Pottawatomie Creek</em>, and <em>Moloch: The Optimization Trap</em> — are case studies in what the instrument produces in skilled hands.
       <div class="small-print">Open-Write is the open-source foundation. A small set of proprietary components used in the author's own production is not part of the public release. Evaluation verdicts shown are from the system's own AI adversarial readers, not human professional coverage.</div>
     </div>
     <div class="links">
