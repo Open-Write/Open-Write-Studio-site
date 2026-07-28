@@ -456,3 +456,18 @@ footer a { color: var(--ink-soft); }
   pointer-events: none;
   z-index: -1;
 }
+
+/* Footnote superscript links */
+.fn {
+  font-size: 0.75em;
+  vertical-align: super;
+  line-height: 0;
+}
+.fn a {
+  color: var(--accent);
+  border-bottom: none;
+  text-decoration: none;
+}
+.fn a:hover {
+  color: var(--accent-soft);
+}
