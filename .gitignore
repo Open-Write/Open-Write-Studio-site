@@ -1,2 +1,4 @@
 art/
 development/
+api/*.env
+!api/*.env.example
