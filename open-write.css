@@ -159,6 +159,18 @@ section + section { border-top: 1px solid var(--rule); }
   vertical-align: middle;
   margin-right: 0.4em;
 }
+.beta-tag {
+  display: inline-block;
+  font-size: 0.6em;
+  background: rgba(184, 150, 11, 0.15);
+  color: var(--accent);
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  vertical-align: middle;
+  margin-left: 0.3em;
+}
 .btn {
   display: inline-block;
   padding: 0.875rem 1.75rem;
